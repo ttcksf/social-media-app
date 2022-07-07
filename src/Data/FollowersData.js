@@ -3,7 +3,7 @@ import img2 from "../img/img2.png";
 import img3 from "../img/img3.png";
 import img4 from "../img/img4.jpeg";
 
-export const Follwers = [
+export const Followers = [
   { name: "Andrew Thomas", username: "AndrewThomas", img: img1 },
   { name: "Hulk Bustner", username: "HulkBustner", img: img2 },
   { name: "Thor", username: "ThunderMaster", img: img3 },

@@ -1,11 +1,11 @@
 import React from "react";
 import "./FollowersCard.css";
-import { Follwers } from "../../Data/FollwersData";
+import { Followers } from "../../Data/FollowersData";
 const FollowersCard = () => {
   return (
     <div className="FollowersCard">
       <h3>Who is follwing you</h3>
-      {Follwers.map((followers, id) => {
+      {Followers.map((followers, id) => {
         return (
           <div className="follower">
             <div>
