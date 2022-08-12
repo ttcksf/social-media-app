@@ -49,6 +49,7 @@ const ProfileCard = ({ location }) => {
             <span>{user.followers.length}</span>
             <span>Followers</span>
           </div>
+          {/* プロフィールページのみで表示 */}
           {location === "profilePage" && (
             <>
               <div className="vl"></div>
@@ -63,6 +64,7 @@ const ProfileCard = ({ location }) => {
         </div>
         <hr />
       </div>
+      {/* プロフィールページのみで表示 */}
       {location === "profilePage" ? (
         ""
       ) : (
